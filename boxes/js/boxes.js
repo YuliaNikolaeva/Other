@@ -27,7 +27,10 @@ const getTopAndLeft = ({clientY}) => {
   top = clientY;
   let stepAnimation = 0;
 
- console.log('top', top)
+ console.log('top', top);
+ console.log('i', i)
+
+  i++;
 
  if (i < top) {
   stepAnimation = setTimeout(getTopAndLeft, 200)
