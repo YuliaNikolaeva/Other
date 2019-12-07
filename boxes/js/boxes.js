@@ -27,7 +27,6 @@ const getTopAndLeft = ({clientY}) => {
   top = clientY;
   let stepAnimation = 0;
 
- top ++;
  console.log('top', top)
 
  if (i < top) {
